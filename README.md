@@ -7,6 +7,8 @@ AWS RDS PSQL Cheatsheet
 `\dn`
 - Create a schema
 `CREATE SCHEMA schema_name;`
+- Use a database
+`\c database`
 - List all tables
 `\dt`
 
