@@ -5,5 +5,8 @@ AWS RDS PSQL Cheatsheet
 `psql -h hostname -p portNumber -U userName dbName -W`
 - List Schemas
 `\dn`
-- Create Schemas
+- Create a schema
 `CREATE SCHEMA schema_name;`
+- List all tables
+`\dt`
+
